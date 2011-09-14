@@ -1,0 +1,23 @@
+##
+## Projeto OpenAmsh
+##
+
+O projeto OpenAmsh foi iniciado durante o desenvolvimento ide um trabalho de conclusão de curso para o curso de Redes de Computadores, da FATEC Lins. O projeto teve como objetivo o desenvolvimento de um componente de monitoramento web-based, que simplificasse o fluxo das informações dentro da arquitetura proposta.
+
+Maiores informações sobre o projeto estão contidas no documento MonogragiaOpenAmsh.pdf.
+
+Obrigado.
+
+
+Henrique Brites
+
+
+
+##
+##  Geração do agente OpenAmsh
+##
+
+Para gerar o arquivo openamsh.jar (Agente Openamsh), entre no diretório /build/classes e execute o seguinte comando:
+
+jar cmfv ../../manifest.txt openamsh.jar com/fatec/openamsh/agent/*
+
